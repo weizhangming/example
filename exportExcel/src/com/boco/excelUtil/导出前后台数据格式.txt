@@ -1,0 +1,72 @@
+{
+	"columns": [
+		{
+			"title": "机组",
+			"field": "equipmentUnit",
+			"colspan": "1",
+			"rowspan": "2",
+			"chirdells": null
+		},
+        {
+			"title": "大修轮次",
+			"field": "maintainRounds",
+			"colspan": "1",
+			"rowspan": "2",
+			"chirdCells": null
+		},
+		{
+			"title": "1级",
+			"field": null,
+			"colspan": "2",
+			"rowspan": "1",
+			"chirdCells": [
+				{
+					"title": "左",
+					"field": "1levelLeft",
+					"colspan": "1",
+					"rowspan": "1",
+					"chirdCells": null
+				},
+				{
+					"title": "右",
+					"field": "1levelRight",
+					"colspan": "1",
+					"rowspan": "1",
+					"chirdCells": null
+				}
+			]
+		},
+		{
+			"title": "2级",
+			"colspan": "2",
+			"rowspan": "1",
+			"chirdCells": [
+				{
+					"title": "左",
+					"field": "2levelLeft",
+					"colspan": "1",
+					"rowspan": "1",
+					"chirdCells": null
+				},
+				{
+					"title": "右",
+					"field": "1levelRight",
+					"colspan": "1",
+					"rowspan": "1",
+					"chirdCells": null
+				}
+			]
+		}
+	],
+	"rowStart": 2,
+	"columnStart": 0,
+	"rows": [{
+		"equipmentUnit": "Y1",
+		"maintainRounds": "Y101",
+		"1levelLeft": "55",
+		"1levelRight": "56",
+		"2levelLeft": "57",
+		"2levelRight": "58"
+	}]	
+		
+}
